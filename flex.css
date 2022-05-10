@@ -1,19 +1,25 @@
 
 body {
-    border: 10px  rgb(0, 195, 255);
-    background-color: aqua;
+    border: 10px  rgb(255, 36, 36);
+    background-color: rgb(255, 36, 36);
 } 
 
 .container {
     display: flex;
-    border: 10px  rgb(0, 195, 255);
-    background-color: aqua;
+    border: 10px  rgb(255, 36, 36);
+    background-color: rgb(255, 36, 36);
 }  
    
 h1 {
     text-align: center;
-    border: 1px solid rgb(235, 230, 222);
+    text-decoration: wavy goldenrod;
     
+    color: rgb(8, 17, 48);
+    border: 1px dashed rgb(235, 230, 222);
+    background-color: tomato;
+    padding: 0,5em;
+    margin: 0,3em;
+
 }
 .Medium-Pizza {
     display: grid;
@@ -27,9 +33,9 @@ h1 {
     display: grid;
     padding: 1em;
     border: 2px solid;
-    border-color: orangered;
+    border-color: rgb(91, 93, 194);
     margin: 1em;
-    background-color: orangered;
+    background-color: rgb(91, 93, 194);
 }
 
 .Small-Pizza {
@@ -42,24 +48,24 @@ h1 {
 }
 .Contact-Details {
     display: flex;
-    flex: 1
-    
+    padding: 1em;
+    border: 2px ;
+    border-color:  lightsalmon;
+    margin: 1em;
+    background-color:  lightsalmon;   
 }
-.container {
-background-color: aqua;
-border: 10px  rgb(0, 195, 255);
-}
+
 @media (min-width: 768px) {
 .Pizzas {
     display: flex;
-    border: 10px  rgb(0, 195, 255);
-    background-color: aqua;  
+    border: 10px  rgb(255, 36, 36);
+    background-color: rgb(255, 36, 36);  
 } 
 
 .Medium-Pizza {
     display: grid;
     padding: 1em;
-    border: 2px solid;
+    border-radius: 2px solid;
     border-color: orange;
     margin: 1em;
     background-color: orange;
@@ -69,10 +75,10 @@ border: 10px  rgb(0, 195, 255);
 .Large-Pizza {
     display: grid;
     padding: 1em;
-    border: 2px solid;
-    border-color: orangered;
+    border-radius: 2px solid;
+    border-color: rgb(91, 93, 194);
     margin: 1em;
-    background-color: orangered;
+    background-color: rgb(91, 93, 194);
 }   
 .Small-Pizza {
     display: grid;
@@ -85,26 +91,26 @@ border: 10px  rgb(0, 195, 255);
 .Contact-Details {
     display: flex;
     padding: 1em;
-    border: 2px solid;
-    border-color: rgb(132, 187, 70);
+    border: 2px ;
+    border-color:  lightsalmon;
     margin: 1em;
-    background-color: rgb(132, 187, 70);
+    background-color:  lightsalmon;
 }
 .Contact-Details1{
     display: grid;
     padding: 1em;
-    border: 2px solid;
-    border-color: rgb(132, 187, 70);
+    border: 2px ;
+    border-color: lightsalmon;
     margin: 1em;
-    background-color: rgb(132, 187, 70);
+    background-color:  lightsalmon;
 }
 .Contact-Details2{
     display: grid;
     padding: 1em;
-    border: 2px solid;
-    border-color: rgb(132, 187, 70);
+    border: 2px;
+    border-color:  lightsalmon;
     margin: 1em;
-    background-color: rgb(132, 187, 70);
+    background-color:  lightsalmon;
 }
 
 }
