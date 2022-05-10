@@ -1,0 +1,111 @@
+
+body {
+    border: 10px  rgb(0, 195, 255);
+    background-color: aqua;
+} 
+
+.container {
+    display: flex;
+    border: 10px  rgb(0, 195, 255);
+    background-color: aqua;
+}  
+   
+h1 {
+    text-align: center;
+    border: 1px solid rgb(235, 230, 222);
+    
+}
+.Medium-Pizza {
+    display: grid;
+    padding: 1em;
+    border: 2px solid;
+    border-color: orange;
+    margin: 1em;
+    background-color: orange;
+}
+.Large-Pizza {
+    display: grid;
+    padding: 1em;
+    border: 2px solid;
+    border-color: orangered;
+    margin: 1em;
+    background-color: orangered;
+}
+
+.Small-Pizza {
+    display: grid;
+    padding: 1em;
+    border: 2px solid;
+    border-color: rgb(187, 70, 158);
+    margin: 1em;
+    background-color: rgb(187, 70, 158);
+}
+.Contact-Details {
+    display: flex;
+    flex: 1
+    
+}
+.container {
+background-color: aqua;
+border: 10px  rgb(0, 195, 255);
+}
+@media (min-width: 768px) {
+.Pizzas {
+    display: flex;
+    border: 10px  rgb(0, 195, 255);
+    background-color: aqua;  
+} 
+
+.Medium-Pizza {
+    display: grid;
+    padding: 1em;
+    border: 2px solid;
+    border-color: orange;
+    margin: 1em;
+    background-color: orange;
+    
+}
+
+.Large-Pizza {
+    display: grid;
+    padding: 1em;
+    border: 2px solid;
+    border-color: orangered;
+    margin: 1em;
+    background-color: orangered;
+}   
+.Small-Pizza {
+    display: grid;
+    padding: 1em;
+    border: 2px solid;
+    border-color: rgb(187, 70, 158);
+    margin: 1em;
+    background-color: rgb(187, 70, 158);
+}
+.Contact-Details {
+    display: flex;
+    padding: 1em;
+    border: 2px solid;
+    border-color: rgb(132, 187, 70);
+    margin: 1em;
+    background-color: rgb(132, 187, 70);
+}
+.Contact-Details1{
+    display: grid;
+    padding: 1em;
+    border: 2px solid;
+    border-color: rgb(132, 187, 70);
+    margin: 1em;
+    background-color: rgb(132, 187, 70);
+}
+.Contact-Details2{
+    display: grid;
+    padding: 1em;
+    border: 2px solid;
+    border-color: rgb(132, 187, 70);
+    margin: 1em;
+    background-color: rgb(132, 187, 70);
+}
+
+}
+
